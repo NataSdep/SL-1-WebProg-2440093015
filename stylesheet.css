@@ -1,0 +1,96 @@
+
+.text1{
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 25px;
+}
+
+.text2{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 55px;
+}
+
+.btn{
+    text-align: center;
+    padding: 12px 24px;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    opacity: 1;
+  }
+
+  .btn1{
+      background-color: #40C4FF;
+      border-radius: 5px;
+      font-size: 25px;
+      padding: 24px 36px;
+  }
+
+  .btn2{
+      background-color: #66BB6A;
+      border-radius: 5px;
+      font-size: 25px;
+      padding: 24px 36px;
+  }
+
+  .btnKembali{
+      background-color: #FFAB40;
+      border-radius: 5px;
+      font-size: 15px;
+      padding: 8px 40px;
+    }
+
+  .btnRegister{
+      background-color: #66BB6A;
+      border-radius: 5px;
+      font-size: 15px;
+      padding: 8px 40px;
+  }
+  
+  .btnKembali1{
+      background-color: #FFAB40;
+      border-radius: 5px;
+      font-size: 15px;
+      padding: 8px 40px;
+    }
+
+  .btnRegister1{
+      background-color: #66BB6A;
+      border-radius: 5px;
+      font-size: 15px;
+      padding: 8px 40px;
+  }
+  .regis{
+      font-size: 35px;
+  }
+
+  .btn11{
+    background-color: #40C4FF;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 12px 24px;
+}
+
+.btn21{
+    background-color: #66BB6A;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 12px 24px;
+}
+  
+  
+.text3{
+    font-size: 35px;
+    text-align: center;
+}
+
+
+
+    
+
+
+
