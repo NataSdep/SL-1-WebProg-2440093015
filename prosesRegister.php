@@ -1,5 +1,6 @@
 <?php
     session_start();
+    include("config.php");
 
     $namaFile = $_FILES['fotoProfile']['name'];
     $tmp_name = $_FILES['fotoProfile']['tmp_name'];
@@ -47,6 +48,14 @@
         $_SESSION["passwordRegis1"] = $password1;
          $_SESSION["passwordRegis2"] = $password2;
          
-         header("Location: login.php");
+         $str_query = "insert into user value('".$namaDepan."','".$namaBelakang."','".$namaTengah."','".$tempatLahir."','".$tanggalLahir."','".$NIK."','".$wargaNegara."','".$email."','".$noHP."','".$alamat."','".$kodePos."','".$fotoProfile."','".$username."','".$password1."')";
+
+        try{
+            $query = mysqli_query($connection, $str_query);
+            $_SESSION["msg"] = "Register Berhasil";
+            header("Location:login.php");
+        } catch(Exception $e){
+            $_SESSION["msg"] = "Register Gagal";
+}
 ?>
 

@@ -48,7 +48,7 @@
                     <td>Alamat</td>
                     <td><textarea name="alamat" id="" cols="20" rows="3" required></textarea></td> 
                     <td>Kode Pos</td>
-                    <td><input type="text" name="kodePos"required/></td> 
+                    <td><input type="number" name="kodePos"required/></td> 
                     <td>Foto Profil</td>
                     <td>
                         <form action="" method="post" enctype = "multipart/form-data">

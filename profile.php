@@ -57,6 +57,12 @@
                     <td>
                     <img src="./fotoProfile/<?= $_SESSION['fotoProfile'] ?>" alt="fotoProfile" style="max-height:100px;">
                     </td>
+
+                <tr>
+                    <td>
+                    <a href="edit.php" class="btn btn-primary" style="margin-bottom: 20px;">Edit Profil</a>
+                    </td>
+                </tr>
             </table>
             
         </div>
